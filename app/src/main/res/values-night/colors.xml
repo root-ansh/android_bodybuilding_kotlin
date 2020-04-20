@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <color name="primary">@color/black_2e2e</color>
+    <color name="primary_dark">@color/black_2121</color>
+
+    <color name="accent_dark">@color/yellow_FFAC41</color>
+    <color name="accent_light">@color/yellow_F9FF41</color>
+
+    <color name="screen_bg">@color/black_2121</color>
+
+    <color name="primary_text">@color/white_fff</color>
+    <color name="secondary_text">@color/white_fafa</color>
+    <color name="icon_bg">@color/black_2e2e</color>
+    <color name="divider">@color/yellow_F9FF41</color>
+
+    <color name="black000_c3">#C3000000</color>
+
+
+</resources>

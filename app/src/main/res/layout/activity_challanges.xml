@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:fontFamily="@font/railway_medium_compat"
+        android:gravity="center"
+        android:paddingStart="8dp"
+
+        android:paddingTop="32dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:text="Day 21: April 5 , 2020"
+        android:textAllCaps="true"
+        android:textColor="@color/white_fff"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_ex_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_c32rectangle_col_iconbg"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+
+            android:text="5"
+            android:textColor="@color/primary_text"
+            android:textSize="32sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/playfair_bold_compat"
+            android:gravity="start"
+            android:text="Exercises"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_minute_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_c32rectangle_col_iconbg"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="99"
+            android:textColor="@color/primary_text"
+            android:textSize="32sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/playfair_bold_compat"
+            android:gravity="start"
+            android:text="Seconds(avg)"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chal_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/layout_eachrow_challange"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/tv_randomize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_c32rectangle_col_accent_light"
+            android:drawableEnd="@drawable/ic_shuffle_black"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/railway_medium_compat"
+            android:gravity="center"
+            android:padding="16dp"
+
+            android:text="Randomize"
+            android:textColor="@color/black_000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_c24rectangle_col_accent_dark"
+            android:drawableEnd="@drawable/ic_send_c_icon"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/railway_medium_compat"
+            android:gravity="center"
+            android:padding="16dp"
+
+            android:text="   Start     "
+            android:textAllCaps="true"
+            android:textColor="@color/icon_bg"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/divider"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

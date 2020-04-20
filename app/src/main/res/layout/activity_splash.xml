@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_rectangle_grad_prime_primedark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LCO"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/railway_medium_compat"
+            android:textSize="48dp"
+            android:background="@drawable/bg_c8rectangle_col_icon_bg"
+            android:textColor="@color/primary_text"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Workout"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/railway_medium_compat"
+            android:textSize="42dp"
+            android:background="@drawable/bg_c8rectangle_col_icon_bg"
+            android:textColor="@color/primary_text"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+
+        android:background="@drawable/bg_circle_col_icon_bg"
+        android:src="@drawable/ic_muscle_accent"
+        android:padding="32dp"
+        android:elevation="4dp"
+        android:rotation="-30"
+        android:layout_gravity="center"
+        android:contentDescription="logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Personal Workout Training Expert."
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:fontFamily="@font/playfair_bold_compat"
+        android:textSize="24dp"
+        android:textColor="@color/white_fff"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:textStyle="italic"/>
+
+
+
+</FrameLayout>

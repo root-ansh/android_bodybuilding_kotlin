@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_ex1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/e2"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/view_break1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <View
+                android:id="@+id/view_break1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/iv_ex2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/iv_ex1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.7" />
+
+            <ImageView
+                android:id="@+id/iv_ex2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/e1"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+
+                app:layout_constraintEnd_toStartOf="@+id/view_break2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/view_break1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view_break2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/iv_ex3"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/iv_ex2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3" />
+
+
+            <ImageView
+                android:id="@+id/iv_ex3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/e3"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+
+                app:layout_constraintEnd_toStartOf="@+id/view_break3"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/view_break2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view_break3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/iv_ex4"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/iv_ex3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/iv_ex4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/e4"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/view_break4"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/view_break3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view_break4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+
+
+                app:layout_constraintEnd_toStartOf="@+id/iv_ex5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/iv_ex4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3" />
+
+            <ImageView
+                android:id="@+id/iv_ex5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/e5"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/view_break5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/view_break4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view_break5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_circle_pink_ffebee"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+
+                app:layout_constraintStart_toEndOf="@+id/iv_ex5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <FrameLayout
+            android:id="@+id/card_break"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="100dp"
+            tools:visibility="visible"
+            tools:alpha="0.4"
+            android:elevation="2dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/layerlist_break_bg"
+                android:scaleType="fitXY"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:layout_gravity="center|top"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+
+                android:text="BREAK"
+                android:textAllCaps="true"
+
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:textSize="40dp" />
+
+
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                android:background="@drawable/bg_circle_col_icon_bg"
+                android:src="@drawable/ic_muscle_yellow"
+                android:padding="32dp"
+                android:elevation="4dp"
+                android:rotation="-30"
+                android:layout_gravity="center"
+                android:contentDescription="logo"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_card_breakcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfair_bold_compat"
+                android:layout_gravity="center|bottom"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:gravity="center"
+
+                android:text="00:32"
+                android:textAllCaps="true"
+
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:textSize="42sp" />
+
+
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/temp_single_ex_details_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@color/icon_bg"
+                app:cardCornerRadius="4dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_details_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+
+                        android:layout_gravity="center"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/bg_circle_pink_ffebee"
+                        android:padding="8dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/e1" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/railway_medium_compat"
+                            android:gravity="start"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:text="@string/lorem_small"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="12dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_margin="8dp"
+                            android:background="@color/divider" />
+
+                        <TextView
+                            android:id="@+id/tv_details_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/railway_medium_compat"
+                            android:gravity="center|start"
+                            android:padding="8dp"
+                            android:text="Total time : 24 Mins"
+                            android:textAllCaps="true"
+                            android:textColor="@color/primary_text"
+                            android:textSize="12sp"
+                            android:drawablePadding="8dp"
+
+                            android:drawableStart="@drawable/ic_clock"
+
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/temp_music_player_card"
+
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:layout_margin="12dp"
+                android:background="@color/icon_bg"
+                android:minHeight="100dp"
+                app:cardCornerRadius="4dp"
+
+
+
+                >
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/playfair_bold_compat"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Situps"
+                        android:textAllCaps="true"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/primary_text"
+                        android:textSize="32sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="16dp"
+
+                        >
+
+
+                        <com.ramijemli.percentagechartview.PercentageChartView
+                            android:id="@+id/pcv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            app:pcv_animDuration="800"
+                            app:pcv_animInterpolator="anticipate_overshoot"
+                            app:pcv_mode="ring"
+                            app:pcv_backgroundBarColor="@color/accent_light"
+                            app:pcv_progressColor="@color/accent_dark"
+
+                            app:pcv_orientation="counter_clockwise"
+                            app:pcv_progress="80"
+                            app:pcv_startAngle="90" />
+
+                        <TextView
+                            android:id="@+id/tv_current_ex_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/railway_medium_compat"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="0"
+                            android:layout_gravity="center"
+                            android:textAllCaps="true"
+                            android:background="@drawable/bg_c32rectangle_col_iconbg"
+
+                            android:textColor="@color/primary_text"
+                            android:textSize="32dp"
+                            android:textStyle="bold" />
+
+
+                    </FrameLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/tv_repcount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/railway_medium_compat"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+
+                        android:text=" Round # 32"
+                        android:textAllCaps="true"
+
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:backgroundTint="@color/icon_bg"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            app:fabSize="mini"
+            android:src="@drawable/ic_music_off"
+
+            >
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_c24rectangle_col_accent_dark"
+        android:elevation="4dp"
+        android:fontFamily="@font/playfair_bold_compat"
+        android:gravity="center"
+        android:paddingStart="32dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="8dp"
+        android:text="START"
+        android:textAllCaps="true"
+        android:minLines="2"
+
+        android:textColor="@color/white_fff"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp_music_player_card"
+        app:layout_constraintVertical_bias="0.49"
+
+        android:layout_margin="16dp"
+
+
+        />
+
+
+</LinearLayout>

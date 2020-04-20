@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--main colors end-->
+    <color name="purple200">#BB86FC</color>
+    <color name="purple500">#6200EE</color>
+    <color name="purple700">#3700B3</color>
+    <color name="teal200">#03DAC5</color>
+
+
+    <color name="black_000">#000</color>
+    <color name="black_2e2e">#2E2E2E</color>
+    <color name="black_2121">#212121</color>
+
+    <color name="gray_7575">#757575</color>
+    <color name="gray_bdbdbd">#BDBDBD</color>
+    <color name="white_fff">#FFFFFF</color>
+    <color name="white_fafa">#FAFAFA</color>
+
+    <color name="red_f44336">#f44336</color>
+    <color name="redd_32f2f">#D32F2F</color>
+    <color name="pink_ff0481">#FF0481</color>
+    <color name="pink_ffcdd2">#FFC0C6</color>
+
+    <color name="pink_ffebee">#FFEBEE</color>
+    
+    <color name="yellow_FFAC41">#FFAC41</color>
+    <color name="yellow_F9FF41">#F9FF41</color>
+
+
+
+    <!--main colors end-->
+
+
+    <color name="black000_c3">#FFFFFF</color>
+
+
+    <color name="primary">@color/red_f44336</color>
+    <color name="primary_dark">@color/redd_32f2f</color>
+
+    <color name="accent_dark">@color/pink_ff0481</color>
+    <color name="accent_light">@color/pink_ffebee</color>
+
+    <color name="screen_bg">@color/white_fafa</color>
+
+    <color name="primary_text">@color/black_2121</color>
+    <color name="secondary_text">@color/gray_7575</color>
+    <color name="icon_bg">@color/white_fff</color>
+    <color name="divider">@color/gray_bdbdbd</color>
+    <color name="gray_e5e5">#E5E5E5</color>
+
+</resources>

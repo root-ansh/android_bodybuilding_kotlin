@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">LCO Home Workout</string>
+    <string name="loremipsum">
+        hello
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis inventore possimus veritatis.
+        Cum, cumque dicta doloribus facere fuga fugiat id ipsum, laborum laudantium nulla odit,
+        quaerat quas sed ut velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aperiam delectus deserunt nam quidem, quo soluta. Asperiores cumque doloremque facere fuga
+        \n\n
+        sint sit temporibus. Accusantium dolore ex, laborum neque provident suscipit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolor ipsum itaque
+        laudantium modi numquam quibusdam quidem repudiandae tempora, vitae? Culpa exercitationem
+        \n
+        illo iusto laboriosam libero odio quidem voluptate voluptatum! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Autem doloribus ex expedita illo incidunt ipsa ipsam libero
+        maiores quaerat temporibus. Accusamus architecto deleniti eos facere impedit in incidunt
+        modi sunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda
+        consectetur debitis deserunt ea, harum iure, laboriosam magnam minima molestias quia
+        repellat reprehenderit, sequi similique tempore totam velit veritatis voluptate? Lorem
+        \n
+        ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dignissimos ducimus esse ex
+        exercitationem harum ipsa nostrum odio optio quam quas recusandae repellendus, saepe
+        temporibus unde vel vitae voluptate!
+        \n
+
+    </string>
+
+    <string name="lorem_small">
+        hello
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis inventore possimus veritatis.
+        Cum, cumque dicta doloribus facere fuga fugiat id ipsum, laborum laudantium nulla odit,
+
+
+    </string>
+    <string name="about_app">
+        This is a body fitness workout mobile app prototype. User can select do workout everyday by
+        following this app, as it will remind you to workout every 24 hours. on pressing start, it
+        gives a list of 5 exercises that you should be performing. You can also randomize the selection
+        process or get details about them on pressing.\n\n
+        On Pressing start, you can provide the number of rep counts for each exercise. when the
+        challenge begins, it will alternate between exercises and 30 second break. It will also
+        play awesome fitness tracks to keep you going.\n\n
+        This app is a candidate for online challenge posted by Youtuber Hitesh Choudhary.
+
+    </string>
+    <string name="about_me">
+        I am Ansh Sachdeva, A Final Year CS Undergrad from New Delhi,India who loves to code
+        anything Android or Python . If you like this mini project, then please show your support
+        by dropping a star on its official repo (https://www.github.com/root-ansh/lco) . Contact me at the links
+        available on this site : https://root-ansh.github.io/curioustools .
+    </string>
+    <string name="challange_details">
+        This was a challenge posted by youtuber Hitesh choudhary in one of their videos.
+        (https://www.youtube.com/watch?v=VFrKjhcTAzE). more details can be found
+        Here (https://bitbucket.org/hiteshchoudhary/lco-workout-app-challenge/src/master).
+
+        Thank you Mr Hitesh for this challenge, it was fun experience!\n\n
+        As a part of challenge, we have to quote a virtual price, so here it goes: I am willing to
+        convert this prototype into full fledged app in 15 days and sell at @ USD 350 , with up to 5
+        more major features and 6 months maintenance at an additional USD 150/month :)
+
+    </string>
+    <string name="opensource_link1"> Todo</string>
+</resources>

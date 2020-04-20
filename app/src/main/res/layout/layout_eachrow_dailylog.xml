@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/temp_single_ex_details_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/icon_bg"
+        app:cardCornerRadius="2dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_circle_col_icon_bg"
+            android:padding="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_cal" />
+
+
+            <TextView
+                android:id="@+id/tv_dl_date"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfair_bold_compat"
+                android:gravity="start"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="8dp"
+                android:text="Monday, July 5, 2020"
+                android:textAllCaps="true"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                >
+                <ImageView
+                    android:id="@+id/ic_star1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:id="@+id/ic_star2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:id="@+id/ic_star3"
+
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:id="@+id/ic_star4"
+
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_star_grey"/>
+                <ImageView
+
+                    android:id="@+id/ic_mus5"
+
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_muscle_flat_gray"
+                    android:scaleType="fitCenter"
+                    android:padding="4dp"
+                    android:scaleX="-1"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
+
+
